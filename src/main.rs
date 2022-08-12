@@ -5,7 +5,7 @@ use std::io;
 use colored::*;
 
 fn main() {
-    print!(">>> ");
+    print!("commit message >>> ");
     io::stdout().flush().unwrap(); 
 
     let mut message = String::new();
