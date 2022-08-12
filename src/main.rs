@@ -27,7 +27,7 @@ fn main() {
         Some(code) => match code {
             // if the status code is 1, then there is no changes to commit
             1 => {
-                println!("no changes to commit, {}", "process terminated".red());
+                println!("{} {} {}", "push failed,".red(), "on changes".blue(), "to commit".red());
             },
 
             // else commit the changes with the given message
