@@ -2,7 +2,8 @@
 
 gysnc-rs is a rust application that allows you to init, add and commit changes to git with a single command. 
 
-###Usage
+
+<h3>Usage</h3>
 
 Run, 
 ```
